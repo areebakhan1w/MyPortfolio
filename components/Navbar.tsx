@@ -68,9 +68,6 @@ export default function Navbar() {
                 transition={{ delay: 0.3 + i * 0.05 }}
                 className="relative font-mono text-sm text-white/50 hover:text-white transition-colors group"
               >
-                <span className="text-[#00d4ff]/60 mr-1 text-xs">
-                  {String(i + 1).padStart(2, "0")}.
-                </span>
                 {link.label}
                 <span className="absolute -bottom-1 left-0 w-0 h-px bg-[#00d4ff] transition-all duration-300 group-hover:w-full" />
               </motion.button>
@@ -125,9 +122,6 @@ export default function Navbar() {
               onClick={() => handleNav(link.href)}
               className="text-left font-mono text-sm text-white/60 hover:text-white transition-colors"
             >
-              <span className="text-[#00d4ff]/60 mr-2">
-                {String(i + 1).padStart(2, "0")}.
-              </span>
               {link.label}
             </button>
           ))}
