@@ -1,117 +1,126 @@
-# MyPortfolio
-# 🌟 Areeba Nadeem — AI Engineer & Creative Technologist
+# Areeba Nadeem — AI Engineer & Creative Technologist
 
-[![Portfolio](https://img.shields.io/badge/🌐-Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://my-portfolio-navy-six-92.vercel.app/)
-[![GitHub](https://img.shields.io/badge/🐙-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/areebakhan1w)
-[![LinkedIn](https://img.shields.io/badge/🔗-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/areeba-nadeem)
-[![Email](https://img.shields.io/badge/📧-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:57027@students.riphah.edu.pk)
+[![Portfolio](https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://my-portfolio-navy-six-92.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/areebakhan1w)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/areeba-khan-8a5a51321)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/ariibah_khan)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:57027@students.riphah.edu.pk)
 
-> **A world-class futuristic portfolio website** — AI Engineer, Prompt Engineer, UI/UX Designer, and Software Engineering Student.
+> A futuristic portfolio website showcasing AI Engineering, Prompt Engineering, UI/UX Design, and Software Engineering work.
 
-🔗 **Live Demo:** [my-portfolio-navy-six-92.vercel.app](https://my-portfolio-navy-six-92.vercel.app/)
-
----
-
-## ✨ Features
-
-| Feature | Description |
-|---------|-------------|
-| 🎨 **Custom Animated Cursor** | Physics-based magnetic cursor with hover effects |
-| 🎬 **Cinematic Loader** | Progress bar animation for smooth loading |
-| 🌌 **Interactive 3D Hero** | Three.js particle field & neural network nodes |
-| 🧲 **Magnetic Buttons** | Buttons that follow cursor movement |
-| ⌨️ **Typing Animation** | Auto-cycling through AI/UX roles |
-| 📦 **Project Showcase** | Click-to-expand interactive project cards |
-| 📊 **Skill Proficiency Bars** | Animated skill level indicators |
-| 🤖 **AI Lab Terminal** | Interactive AI experiments widget |
-| 📱 **Mobile Responsive** | Adaptive design for all screen sizes |
-| 🌙 **Dark Futuristic UI** | Glassmorphism with neon accents |
+**Live Demo:** [my-portfolio-navy-six-92.vercel.app](https://my-portfolio-navy-six-92.vercel.app/)
 
 ---
 
-## 🛠️ Tech Stack
+## Features
 
-| Technology | Badge |
-|------------|-------|
-| Next.js 14 | [![Next.js](https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js)](https://nextjs.org/) |
-| TypeScript | [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/) |
-| Tailwind CSS | [![Tailwind](https://img.shields.io/badge/Tailwind-3-06B6D4?style=flat-square&logo=tailwindcss)](https://tailwindcss.com/) |
-| Framer Motion | [![Framer Motion](https://img.shields.io/badge/Framer_Motion-10-0055FF?style=flat-square&logo=framer)](https://www.framer.com/motion/) |
-| Three.js | [![Three.js](https://img.shields.io/badge/Three.js-r160-000000?style=flat-square&logo=three.js)](https://threejs.org/) |
-| Vercel | [![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?style=flat-square&logo=vercel)](https://vercel.com/) |
+- Custom animated cursor with physics-based magnetic hover effects
+- Cinematic intro loader with progress bar animation
+- Interactive 3D hero section using Three.js particle field and neural network nodes
+- Magnetic buttons that follow cursor movement
+- Typing animation cycling through AI/UX roles
+- Click-to-expand interactive project cards (11 projects)
+- Animated skill proficiency bars
+- AI Lab terminal widget with interactive experiments
+- Fully mobile responsive design
+- Dark futuristic UI with glassmorphism and neon accents
 
 ---
 
-## 📂 Project Structure
+## Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| Next.js 14 | React framework with App Router |
+| TypeScript | Type-safe development |
+| Tailwind CSS | Utility-first styling |
+| Framer Motion | Cinematic animations |
+| React Three Fiber | 3D interactive hero canvas |
+| Lenis | Ultra-smooth scrolling |
+| GSAP | Advanced animation timeline |
+
+---
+
+## Project Structure
+
+```
 areeba-portfolio/
 ├── app/
-│ ├── globals.css → All CSS, animations, custom cursor styles
-│ ├── layout.tsx → Root layout with metadata
-│ └── page.tsx → Main page with loader + sections
+│   ├── globals.css         # CSS, animations, custom cursor styles
+│   ├── layout.tsx          # Root layout with metadata
+│   └── page.tsx            # Main page with loader + sections
 ├── components/
-│ ├── 3d/
-│ │ └── HeroCanvas.tsx → Three.js 3D scene (particles, orbs, neural nodes)
-│ ├── sections/
-│ │ ├── Hero.tsx → Full-screen hero with typing animation
-│ │ ├── About.tsx → Story, traits, timeline
-│ │ ├── Projects.tsx → Interactive project showcase (11 projects)
-│ │ ├── Skills.tsx → Skill bars, neural map, tech grid
-│ │ ├── AILab.tsx → AI experiments terminal
-│ │ └── Contact.tsx → Contact form + social links
-│ ├── ui/
-│ │ ├── CustomCursor.tsx → Magnetic cursor with hover effects
-│ │ ├── Loader.tsx → Cinematic intro loader
-│ │ └── SmoothScroll.tsx → Lenis smooth scroll wrapper
-│ ├── Navbar.tsx
-│ └── Footer.tsx
-├── public/ → Static assets
+│   ├── 3d/
+│   │   └── HeroCanvas.tsx  # Three.js 3D scene
+│   ├── sections/
+│   │   ├── Hero.tsx        # Full-screen hero with typing animation
+│   │   ├── About.tsx       # Story, traits, timeline
+│   │   ├── Projects.tsx    # Interactive project showcase (11 projects)
+│   │   ├── Skills.tsx      # Skill bars, neural map, tech grid
+│   │   ├── AILab.tsx       # AI experiments terminal
+│   │   └── Contact.tsx     # Contact form + social links
+│   ├── ui/
+│   │   ├── CustomCursor.tsx    # Magnetic cursor with hover effects
+│   │   ├── Loader.tsx          # Cinematic intro loader
+│   │   └── SmoothScroll.tsx    # Lenis smooth scroll wrapper
+│   ├── Navbar.tsx
+│   └── Footer.tsx
+├── public/                 # Static assets
 ├── next.config.js
 ├── tailwind.config.ts
 └── tsconfig.json
+```
+
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
-### Prerequisites
-- Node.js 18+ installed → [nodejs.org](https://nodejs.org/)
+**Prerequisites:** Node.js 18+
 
-### Installation
-# Clone the repository
+```bash
 git clone https://github.com/areebakhan1w/MyPortfolio.git
-
-# Navigate to project folder
 cd MyPortfolio
-
-# Install dependencies
 npm install
-
-# Start development server
 npm run dev
-Open http://localhost:3000 to view it in your browser.
-npm run build      # Production build
-npm start          # Run production build
-npm run lint       # ESLint check
-Customization Guide
-What to Change	File Location
-Hero headline & roles	components/sections/Hero.tsx
-Projects	components/sections/Projects.tsx
-Social links	components/sections/Contact.tsx
-Colors	app/globals.css under :root
+```
 
-🚀 Deployment
-This project is deployed on Vercel:
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-https://img.shields.io/badge/Deployed_on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white
+**Other commands:**
 
-Every push to the main branch automatically triggers a new deployment.
-
-Show Your Support
-If you like this project, please give it a star on GitHub!
-
-https://img.shields.io/github/stars/areebakhan1w/MyPortfolio?style=social
+```bash
+npm run build   # Production build
+npm start       # Run production build
+npm run lint    # ESLint check
+```
 
 ---
 
-## ✅ Ab Ye Karo
+## Customization
 
-```cmd
+| What to change | File location |
+|---|---|
+| Hero headline and roles | `components/sections/Hero.tsx` |
+| Projects | `components/sections/Projects.tsx` |
+| Social links | `components/sections/Contact.tsx` |
+| Colors | `app/globals.css` under `:root` |
+
+---
+
+## Deployment
+
+Deployed on Vercel. Every push to the `main` branch auto-deploys.
+
+---
+
+## Connect
+
+- **LinkedIn:** [areeba-khan-8a5a51321](https://www.linkedin.com/in/areeba-khan-8a5a51321)
+- **Instagram:** [@ariibah_khan](https://instagram.com/ariibah_khan)
+- **Email:** areebanadeem674@gmail.com
+- **GitHub:** [areebakhan1w](https://github.com/areebakhan1w)
+- **Portfolio:** [Live Demo](https://my-portfolio-navy-six-92.vercel.app/)
+
+---
+
+© 2026 Areeba Nadeem. All rights reserved.
