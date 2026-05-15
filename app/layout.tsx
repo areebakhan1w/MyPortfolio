@@ -44,9 +44,9 @@ export const metadata: Metadata = {
     description: "Designing intelligent digital experiences powered by AI.",
     creator: "@areebanadeem",
   },
-  // ✅ Google Search Console Verification (Add karna zaroori hai)
+  // ✅ Google Search Console Verification (Naya code daalo)
   verification: {
-    google: "KIpbvhWb6q4C-wxwNwkwNCkCp43Bq0_D8NNLtik3Szw",
+    google: "tWV0EOqfPRj-Msaj3vJQsA9CLusQIGADkQB9YKoehnI",  // ← YEH LINE CHANGE KARO
   },
 };
 
