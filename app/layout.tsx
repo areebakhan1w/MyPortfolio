@@ -44,6 +44,7 @@ export const metadata: Metadata = {
     description: "Designing intelligent digital experiences powered by AI.",
     creator: "@areebanadeem",
   },
+  // ✅ Google Search Console Verification (Naya HTML tag)
   verification: {
     google: "tWV0EOqfPRj-Msaj3vJQsA9CLusQIGADkQB9YKoehnI",
   },
@@ -56,6 +57,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
+      <head />
       <body className="noise">
         <SmoothScroll>
           <CustomCursor />
