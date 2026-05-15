@@ -14,12 +14,39 @@ export const metadata: Metadata = {
     "Portfolio",
     "Prompt Engineer",
     "Software Engineer",
+    "Creative Technologist",
   ],
+  authors: [{ name: "Areeba Nadeem" }],
+  creator: "Areeba Nadeem",
+  publisher: "Areeba Nadeem",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
   openGraph: {
     title: "Areeba Nadeem — AI Engineer & Creative Technologist",
-    description:
-      "Designing intelligent digital experiences powered by AI.",
+    description: "Designing intelligent digital experiences powered by AI.",
     type: "website",
+    locale: "en_US",
+    siteName: "Areeba Nadeem Portfolio",
+    url: "https://areeba-portfolio-eight.vercel.app",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Areeba Nadeem — AI Engineer & Creative Technologist",
+    description: "Designing intelligent digital experiences powered by AI.",
+    creator: "@areebanadeem",
+  },
+  // ✅ Google Search Console Verification (Add karna zaroori hai)
+  verification: {
+    google: "KIpbvhWb6q4C-wxwNwkwNCkCp43Bq0_D8NNLtik3Szw",
   },
 };
 
