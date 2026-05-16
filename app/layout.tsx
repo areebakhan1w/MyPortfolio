@@ -16,6 +16,11 @@ export const metadata: Metadata = {
     "Software Engineer",
     "Creative Technologist",
   ],
+   icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
   authors: [{ name: "Areeba Nadeem" }],
   creator: "Areeba Nadeem",
   publisher: "Areeba Nadeem",
